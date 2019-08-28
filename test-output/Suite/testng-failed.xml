@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="PHPTravels.AccountPageSignOut">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="baseAccountPageSignOut"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- PHPTravels.AccountPageSignOut -->
+      <class name="PHPTravels.HomePageSignUp">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- PHPTravels.HomePageSignUp -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
